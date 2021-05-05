@@ -1,0 +1,6 @@
+D:\rober\Documents\Escuela\Desarrollo Integral para Aplicaciones Empresariales\Parcial 2\MyTech\MyTech.Domain\bin\Debug\MyTech.Domain.dll
+D:\rober\Documents\Escuela\Desarrollo Integral para Aplicaciones Empresariales\Parcial 2\MyTech\MyTech.Domain\bin\Debug\MyTech.Domain.pdb
+D:\rober\Documents\Escuela\Desarrollo Integral para Aplicaciones Empresariales\Parcial 2\MyTech\MyTech.Domain\obj\Debug\MyTech.Domain.csprojAssemblyReference.cache
+D:\rober\Documents\Escuela\Desarrollo Integral para Aplicaciones Empresariales\Parcial 2\MyTech\MyTech.Domain\obj\Debug\MyTech.Domain.csproj.CoreCompileInputs.cache
+D:\rober\Documents\Escuela\Desarrollo Integral para Aplicaciones Empresariales\Parcial 2\MyTech\MyTech.Domain\obj\Debug\MyTech.Domain.dll
+D:\rober\Documents\Escuela\Desarrollo Integral para Aplicaciones Empresariales\Parcial 2\MyTech\MyTech.Domain\obj\Debug\MyTech.Domain.pdb

@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Input Adapter", "1. Input Adapter", "{6CBAE49B-9367-4276-9F8A-5B633A4DC778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application Service", "2. Application Service", "{2F9A978E-694D-416C-84F0-7B661D96E5F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain Model", "3. Domain Model", "{1FADD0A3-6E6C-4AAB-A07D-0FF8389012F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Output Adapter", "4. Output Adapter", "{036A0782-3256-4E8B-93CC-B7E3DC102C5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTech.Database", "MyTech.Database\MyTech.Database.csproj", "{8C37DAB5-027E-4EF1-A24E-6ED816BB1DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTech.Domain", "MyTech.Domain\MyTech.Domain.csproj", "{7A2426A6-A138-40A4-951B-85F9C7E0C815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTech.Api", "MyTech.Api\MyTech.Api.csproj", "{EC5B1FB6-63C8-4129-864D-8F5A52E9555E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "my-tech", "..\my-tech\", "{F51C8459-B8A2-4B9F-A1AE-2E1FE1D64255}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52301"
+		Debug.AspNetCompiler.PhysicalPath = "..\my-tech\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52301\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52301"
+		Release.AspNetCompiler.PhysicalPath = "..\my-tech\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52301\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52301"
+		SlnRelativePath = "..\my-tech\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C37DAB5-027E-4EF1-A24E-6ED816BB1DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C37DAB5-027E-4EF1-A24E-6ED816BB1DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C37DAB5-027E-4EF1-A24E-6ED816BB1DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C37DAB5-027E-4EF1-A24E-6ED816BB1DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2426A6-A138-40A4-951B-85F9C7E0C815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2426A6-A138-40A4-951B-85F9C7E0C815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2426A6-A138-40A4-951B-85F9C7E0C815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2426A6-A138-40A4-951B-85F9C7E0C815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5B1FB6-63C8-4129-864D-8F5A52E9555E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5B1FB6-63C8-4129-864D-8F5A52E9555E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5B1FB6-63C8-4129-864D-8F5A52E9555E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5B1FB6-63C8-4129-864D-8F5A52E9555E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51C8459-B8A2-4B9F-A1AE-2E1FE1D64255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51C8459-B8A2-4B9F-A1AE-2E1FE1D64255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51C8459-B8A2-4B9F-A1AE-2E1FE1D64255}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51C8459-B8A2-4B9F-A1AE-2E1FE1D64255}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C37DAB5-027E-4EF1-A24E-6ED816BB1DD0} = {036A0782-3256-4E8B-93CC-B7E3DC102C5C}
+		{7A2426A6-A138-40A4-951B-85F9C7E0C815} = {1FADD0A3-6E6C-4AAB-A07D-0FF8389012F3}
+		{EC5B1FB6-63C8-4129-864D-8F5A52E9555E} = {2F9A978E-694D-416C-84F0-7B661D96E5F0}
+		{F51C8459-B8A2-4B9F-A1AE-2E1FE1D64255} = {6CBAE49B-9367-4276-9F8A-5B633A4DC778}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9124CF95-BEDB-4392-9B5F-79324D68F2E0}
+	EndGlobalSection
+EndGlobal
